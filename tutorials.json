@@ -1,0 +1,35 @@
+{
+  "id": "069745b0-ce68-4383-bfd1-408cfb172db6",
+  "name": "tutorials",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "https://www.chess.com    https://chesstempo.com    https://www.sparkchess.com    https://chess24.com/en/play/chess",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1503850549,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "9eff7168-1a81-4157-a46a-a644fc221763",
+  "parentId": "c2b8c311-1af5-4f49-8ccc-d3f78922fd66",
+  "rootParentId": "7027f967-cf5a-40f5-b040-2da5465130d1",
+  "name": "learn rules - yes - no",
+  "auto": true,
+  "contexts": [
+    "learnrules-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "learnrules.learnrules-yes.learnrules-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cool!! Ask me whatever you want to know about chess rules and tactics"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502643148,
+  "fallbackIntent": false,
+  "events": []
+}

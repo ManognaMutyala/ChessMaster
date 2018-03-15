@@ -1,0 +1,28 @@
+{
+  "id": "39452375-78fb-4d7f-9677-36e2b02d67d5",
+  "name": "exit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "OK !!! Come back tomorrow to learn more"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502646940,
+  "fallbackIntent": false,
+  "events": []
+}

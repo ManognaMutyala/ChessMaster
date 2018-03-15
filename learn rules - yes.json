@@ -1,0 +1,51 @@
+{
+  "id": "c2b8c311-1af5-4f49-8ccc-d3f78922fd66",
+  "parentId": "7027f967-cf5a-40f5-b040-2da5465130d1",
+  "rootParentId": "7027f967-cf5a-40f5-b040-2da5465130d1",
+  "name": "learn rules - yes",
+  "auto": true,
+  "contexts": [
+    "learnrules-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "learnrules.learnrules-yes",
+      "affectedContexts": [
+        {
+          "name": "learnrules-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Chess enpassant",
+          "url": "https://www.youtube.com/watch?v\u003dtOIgnoG5YjY"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "The last rule about pawns is called “en passant,” which is French for “in passing”. If a pawn moves out two squares on its first move, and by doing so lands to the side of an opponent\u0027s pawn (effectively jumping past the other pawn\u0027s ability to capture it), that other pawn has the option of capturing the first pawn as it passes by. This special move must be done immediately after the first pawn has moved past, otherwise the option to capture it is no longer available. Click on the url to know more about in passing.Would you like to know how to check mate a king?",
+            "When a pawn advances two squares from its starting position and there is an opponent\u0027s pawn on an adjacent file next to its destination square, then the opponent\u0027s pawn can capture it en passant (in passing), and move to the square the pawn passed over. This can only be done on the very next move, otherwise the right to do so is forfeit. For example, if the black pawn has just advanced two squares from g7 (initial starting position) to g5, then the white pawn on f5 may take it via en passant on g6 (but only on White\u0027s next move).Would you like to know how to check mate a king?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502643693,
+  "fallbackIntent": false,
+  "events": []
+}

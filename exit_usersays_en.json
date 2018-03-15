@@ -1,0 +1,38 @@
+[
+  {
+    "id": "042b575c-91bd-4705-8647-f6d127344d1e",
+    "data": [
+      {
+        "text": "quit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1502646940
+  },
+  {
+    "id": "6047c15a-2136-4c78-92db-22d489398dd0",
+    "data": [
+      {
+        "text": "Its enough for today",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c950a56-61de-4f37-a681-17f11723aa42",
+    "data": [
+      {
+        "text": "Bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

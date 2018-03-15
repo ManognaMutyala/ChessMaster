@@ -1,0 +1,39 @@
+{
+  "id": "8771126e-8607-4856-a4b7-850386ac1184",
+  "parentId": "8d048f91-7060-478d-93fe-e51a9451b08b",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes - yes - yes - yes - yes - yes - yes - yes",
+  "auto": true,
+  "contexts": [
+    "LearnChess-yes-yes-yes-yes-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes.LearnChess-yes-yes.LearnChess-yes-yes-yes.LearnChess-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes-yes-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "LearnChess-yes-yes-yes-yes-yes-yes-yes-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Pawns are unusual because they move and capture in different ways: they move forward, but capture diagonally. Pawns can only move forward one square at a time, except for their very first move where they can move forward two squares. Pawns can only capture one square diagonally in front of them. They can never move or capture backwards. If there is another piece directly in front of a pawn he cannot move past or capture that piece.Congratulations now you learnt how to move chess pieces on chess board.Would you like to know few more tactics now?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502605147,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0e3c8d51-63e8-482a-a3a2-a91d7247dae2",
+  "name": "help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I can guide how to learn chess from basic or you can simply ask a question related to chess and you can also know online tutorials for chess."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1503850602,
+  "fallbackIntent": false,
+  "events": []
+}

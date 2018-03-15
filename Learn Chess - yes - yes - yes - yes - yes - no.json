@@ -1,0 +1,51 @@
+{
+  "id": "b9ba3efb-cb9c-4615-ba10-7a1797733d44",
+  "parentId": "2afb1210-364c-4c17-89fc-4343682e5154",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes - yes - yes - yes - yes - no",
+  "auto": true,
+  "contexts": [
+    "LearnChess-yes-yes-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes.LearnChess-yes-yes.LearnChess-yes-yes-yes.LearnChess-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "castling"
+            },
+            {
+              "title": "checkmate"
+            },
+            {
+              "title": "en passant"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cool!!! You can ask me any doubts regarding chess or any rules which you would like to know more about?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502645665,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1a15241f-f189-4620-b042-5cc856389290",
+  "parentId": "8d048f91-7060-478d-93fe-e51a9451b08b",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes - yes - yes - yes - yes - yes - yes - no",
+  "auto": true,
+  "contexts": [
+    "LearnChess-yes-yes-yes-yes-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes.LearnChess-yes-yes.LearnChess-yes-yes-yes.LearnChess-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes-yes-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "quit"
+            },
+            {
+              "title": "tactics"
+            },
+            {
+              "title": "rules"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok cool!!! Say quit to end conversation with me or you can ask me any tactics related to chess"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502645972,
+  "fallbackIntent": false,
+  "events": []
+}

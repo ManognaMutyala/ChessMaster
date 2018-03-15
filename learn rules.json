@@ -1,0 +1,39 @@
+{
+  "id": "7027f967-cf5a-40f5-b040-2da5465130d1",
+  "name": "learn rules",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "learnrules-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "First I will teach you the most important rule --Castling  .Once in every game, each king is allowed to make a special move, known as castling. Castling consists of moving the king two squares along the first rank toward a rook (which is on the player\u0027s first rank[note 2]) and then placing the rook on the last square that the king has just crossed. Castling is permissible under the following conditions:[5]\nNeither the king nor the rook have previously moved during the game.\nThere cannot be any pieces between the king and the rook.\nThe king cannot be in check, nor can the king pass through squares that are under attack by enemy pieces, or move to a square where it would result in a check. Note that castling is permissible if the rook is attacked, or if the rook crosses a square that is attacked.Would you like to know more about en passant?",
+            "On a player\u0027s turn he may move his king two squares over to one side and then move the rook from that side\u0027s corner to right next to the king on the opposite side.  However, in order to castle, the following conditions must be met:\n\nit must be that king\u0027s very first move\nit must be that rook\u0027s very first move\nthere cannot be any pieces between the king and rook to move\nthe king may not be in check or pass through check\nNotice that when you castle one direction the king is closer to the side of the board. That is called castling \"kingside\". Castling to the other side, through where the queen sat, is called castling \"queenside\". Regardless of which side, the king always moves only two squares when castling.Would you like to know more about en passant?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502646000,
+  "fallbackIntent": false,
+  "events": []
+}

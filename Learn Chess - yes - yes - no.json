@@ -1,0 +1,51 @@
+{
+  "id": "b0b4317d-1883-41f5-8c02-0dabe228ba9b",
+  "parentId": "4915668c-52ef-45cc-b2b9-5d221f1bb095",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes - yes - no",
+  "auto": true,
+  "contexts": [
+    "LearnChess-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes.LearnChess-yes-yes.LearnChess-yes-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "enpassant"
+            },
+            {
+              "title": "castling"
+            },
+            {
+              "title": "checkmate"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cool!!! You can ask me any doubts regarding chess or any rules which you would like to know more about?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502645057,
+  "fallbackIntent": false,
+  "events": []
+}

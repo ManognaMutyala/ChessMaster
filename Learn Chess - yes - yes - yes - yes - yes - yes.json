@@ -1,0 +1,39 @@
+{
+  "id": "451e5c8f-5e20-4f1c-839e-13089cec212c",
+  "parentId": "2afb1210-364c-4c17-89fc-4343682e5154",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes - yes - yes - yes - yes - yes",
+  "auto": true,
+  "contexts": [
+    "LearnChess-yes-yes-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes.LearnChess-yes-yes.LearnChess-yes-yes-yes.LearnChess-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "LearnChess-yes-yes-yes-yes-yes-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The bishop may move as far as it wants, but only diagonally. Each bishop starts on one color (light or dark) and must always stay on that color. Bishops work well together because they cover up each other\u0027s weaknesses.Would you like to know about knights?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502604897,
+  "fallbackIntent": false,
+  "events": []
+}

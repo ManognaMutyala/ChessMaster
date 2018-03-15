@@ -1,0 +1,33 @@
+{
+  "id": "e3e484ec-3f5d-4fcd-94dd-37b18c759cb9",
+  "parentId": "c2b8c311-1af5-4f49-8ccc-d3f78922fd66",
+  "rootParentId": "7027f967-cf5a-40f5-b040-2da5465130d1",
+  "name": "learn rules - yes - yes",
+  "auto": true,
+  "contexts": [
+    "learnrules-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "learnrules.learnrules-yes.learnrules-yes-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "When a king is under immediate attack by one or two of the opponent\u0027s pieces, it is said to be in check. A response to a check is a legal move if it results in a position where the king is no longer under direct attack (that is, not in check). This can involve capturing the checking piece; interposing a piece between the checking piece and the king (which is possible only if the attacking piece is a queen, rook, or bishop and there is a square between it and the king); or moving the king to a square where it is not under attack. Castling is not a permissible response to a check. The object of the game is to checkmate the opponent; this occurs when the opponent\u0027s king is in check, and there is no legal way to remove it from attack. It is illegal for a player to make a move that would put or leave the player\u0027s own king in check.\nIn casual games it is common to announce \"check\" when putting the opponent\u0027s king in check, but this is not required by the rules of the game, and is not usually done in tournaments.Well yeah!! That\u0027s it about rules"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502644030,
+  "fallbackIntent": false,
+  "events": []
+}

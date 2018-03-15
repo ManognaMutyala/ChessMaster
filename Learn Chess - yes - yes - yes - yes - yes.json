@@ -1,0 +1,39 @@
+{
+  "id": "2afb1210-364c-4c17-89fc-4343682e5154",
+  "parentId": "7b69f23d-d87a-4000-9eb0-a9e14ac926f3",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes - yes - yes - yes - yes",
+  "auto": true,
+  "contexts": [
+    "LearnChess-yes-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes.LearnChess-yes-yes.LearnChess-yes-yes-yes.LearnChess-yes-yes-yes-yes.LearnChess-yes-yes-yes-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "LearnChess-yes-yes-yes-yes-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The rook may move as far as it wants, but only forward, backward, and to the sides. The rooks are particularly powerful pieces when they are protecting each other and working together! I shall teach you bishop moves!! Would you like to know more?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502604796,
+  "fallbackIntent": false,
+  "events": []
+}

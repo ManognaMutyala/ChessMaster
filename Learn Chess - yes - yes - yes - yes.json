@@ -1,0 +1,39 @@
+{
+  "id": "7b69f23d-d87a-4000-9eb0-a9e14ac926f3",
+  "parentId": "37a945bb-4ce7-4a99-bbb6-63825d5236a0",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes - yes - yes - yes",
+  "auto": true,
+  "contexts": [
+    "LearnChess-yes-yes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes.LearnChess-yes-yes.LearnChess-yes-yes-yes.LearnChess-yes-yes-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "LearnChess-yes-yes-yes-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The queen is the most powerful piece. She can move in any one straight direction - forward, backward, sideways, or diagonally - as far as possible as long as she does not move through any of her own pieces. And, like with all pieces, if the queen captures an opponent\u0027s piece her move is over. Notice how the white queen captures the black queen and then the black king is forced to move.Would you like to know how rook moves?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502604708,
+  "fallbackIntent": false,
+  "events": []
+}

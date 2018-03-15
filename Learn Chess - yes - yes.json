@@ -1,0 +1,39 @@
+{
+  "id": "4915668c-52ef-45cc-b2b9-5d221f1bb095",
+  "parentId": "60d55a5a-ae0b-4b05-b8ca-90a785e28957",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes - yes",
+  "auto": true,
+  "contexts": [
+    "LearnChess-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes.LearnChess-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "LearnChess-yes-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Each of the 6 different kinds of pieces moves differently. Pieces cannot move through other pieces (though the knight can jump over other pieces), and can never move onto a square with one of their own pieces. However, they can be moved to take the place of an opponent\u0027s piece which is then captured. Pieces are generally moved into positions where they can capture other pieces (by landing on their square and then replacing them), defend their own pieces in case of capture, or control important squares in the game.Now I will teach you how king will move !!! Interested?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1503849128,
+  "fallbackIntent": false,
+  "events": []
+}

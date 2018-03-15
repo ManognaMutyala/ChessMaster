@@ -1,0 +1,50 @@
+[
+  {
+    "id": "d6708510-b3b3-4f26-9c9e-07dd83048d55",
+    "data": [
+      {
+        "text": "I am struck !!Please do help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1502544656
+  },
+  {
+    "id": "a9eef01b-0da2-4424-a794-ae18568af16c",
+    "data": [
+      {
+        "text": "How can you guide me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1502544656
+  },
+  {
+    "id": "6c000699-f6ea-447d-b3ea-0cb749977ddb",
+    "data": [
+      {
+        "text": "How will you help me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1502544656
+  },
+  {
+    "id": "6be46d5a-6626-4b49-9149-83ec4ff0fa5e",
+    "data": [
+      {
+        "text": "I need some help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1502544656
+  }
+]

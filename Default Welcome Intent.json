@@ -1,0 +1,38 @@
+{
+  "id": "fc03cc3f-e61e-450e-9222-82046bf61619",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Your chess master here!!!Wanna learn chess or do you want to ask me any questions regarding training chess or would you like to know rules and tactics?",
+            "Do you want to learn chess from scratch or do you want to ask anything specific?",
+            "Do you want any clarifications regarding chess or want to learn all its tactics from scratch?",
+            "Chess master can answer any of your question!! and also teach you chess from scratch .Which one do you prefer?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1502638731,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

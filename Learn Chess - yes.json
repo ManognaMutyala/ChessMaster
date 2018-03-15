@@ -1,0 +1,39 @@
+{
+  "id": "60d55a5a-ae0b-4b05-b8ca-90a785e28957",
+  "parentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "rootParentId": "65c49856-c651-4444-9cc2-83ce118e92bb",
+  "name": "Learn Chess - yes",
+  "auto": true,
+  "contexts": [
+    "LearnChess-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LearnChess.LearnChess-yes",
+      "affectedContexts": [
+        {
+          "name": "LearnChess-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "First I shall help you in setting up the board.At the beginning of the game the chessboard is laid out so that each player has the white (or light) color square in the bottom right-hand side. The chess pieces are then arranged the same way each time. The second row (or rank) is filled with pawns. The rooks go in the corners, then the knights next to them, followed by the bishops, and finally the queen, who always goes on her own matching color (white queen on white, black queen on black), and the king on the remaining square.Want to know how chess pieces move?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1503849171,
+  "fallbackIntent": false,
+  "events": []
+}
